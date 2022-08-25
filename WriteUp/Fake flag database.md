@@ -17,4 +17,5 @@ Khi thấy từ "Backend" thì mình sẽ thử truy cập thông qua nhập c�
 ![Imgur](https://i.imgur.com/tFn4ikQ.png)
 
 Tada!! Chúng ta đã truy cập vào Backend và tìm thấy flag.
+
 flag: ictf{nothing_is_hidden_nothing_is_safe}
