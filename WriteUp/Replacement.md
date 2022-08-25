@@ -7,7 +7,8 @@
 Khi mình nhìn vào trong <body> của bài, tag <script> không triển khai để hiện flag và mình đã chú ý đến đoạn fetch('/totallynottheflag')
 ![Imgur](https://i.imgur.com/wvIPiH0.png)
 
-Fetch() cho phép tạo một network request tương tự như XMLHttpRequest(XHR). Mình đã truy cập vào /totallynottheflag và tìm ra flag.
+Fetch() cho phép tạo một network request tương tự như XMLHttpRequest(XHR). 
+Vì vậy mình đã truy cập vào /totallynottheflag.
 ![Imgur](https://i.imgur.com/RT9VbPC.png)
 
 flag: ictf{gr333333333333333n_flags_are_g00d_tho}
