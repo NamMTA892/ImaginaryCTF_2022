@@ -1,4 +1,4 @@
-# ImaginaryCTF_2022
+# ImaginaryCTF_2022/Replacement
 Đề bài:
 ![Imgur](https://i.imgur.com/jiCxhH9.png)
 ![Imgur](https://i.imgur.com/ppoQTBc.png)
