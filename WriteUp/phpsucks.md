@@ -8,8 +8,8 @@
 Nhưng do không hoạt động nên mình đã nghĩ đến sử dụng PHPFuck:
 ![Imgur](https://i.imgur.com/LD5Kz1O.png)
 
-Đề bài chỉ cho độ dài đầu vào 100 nên mình đã thất bại :))).
-Rồi mình đã tìm được kĩ thuật bypass qua preg_match và có đầu vào truyền vào eval();.
+Đề bài chỉ cho độ dài đầu vào 100 nên mình đã thất bại.
+Rồi mình đã tìm được kĩ thuật bypass qua preg_match và có đầu vào truyền vào eval();
 Mình sẽ giải thích qua kĩ thuật này:
     Trong PHP, lời gọi hàm có thể thực thi:
 ![Imgur](https://i.imgur.com/wkVvxTM.png)
