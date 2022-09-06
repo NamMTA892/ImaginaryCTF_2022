@@ -21,7 +21,7 @@ Mình sẽ giải thích qua kĩ thuật này:
 "?" sẽ được đổi ra mã ASCII là 63 và quy đổi ra nhị phân 00111111.  
 "}" sẽ được đổi ra mã ASCII là 125 và quy đổi ra nhị phân 01111101.  
 Sau khi XOR sẽ ra 01000010 và quy đổi sẽ ra kí tự "B".  
-Thông qua 2 phương pháp trên mình sẽ truyền vào: 
+Thông qua 2 phương pháp trên mình sẽ truyền vào:  
 ![Imgur](https://i.imgur.com/tieSo5U.png)
 ![Imgur](https://i.imgur.com/KD79Cp7.png)
 ![Imgur](https://i.imgur.com/eP3ph4F.png)
