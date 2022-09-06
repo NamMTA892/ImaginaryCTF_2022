@@ -10,7 +10,7 @@ Cách 1: Byspass Preg_match() bằng array nhưng không hoạt động do khôn
 Cách 2: Sử dụng PHPFuc*: nhưng do độ dài chuỗi nhập nhỏ hơn 100 nên không hoạt động.
 ![Imgur](https://i.imgur.com/LD5Kz1O.png)
 
-Rồi mình đã tìm được kĩ thuật bypass qua preg_match và có đầu vào truyền vào eval();  
+Cách 3: Sử dụng kỹ thuật lệnh XOR:  
 Mình sẽ giải thích qua kĩ thuật này:  
 +Trong PHP, lời gọi hàm có thể thực thi bằng cách đặt tên biến là tên hàm và thêm () để gọi hàm:  
 ![Imgur](https://i.imgur.com/wkVvxTM.png)
