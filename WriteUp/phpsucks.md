@@ -3,13 +3,13 @@
 ![Imgur](https://i.imgur.com/ToEwB3h.png)
 
 Link:http://puzzler7.imaginaryctf.org:4011/  
-Để bypass qua Preg_match() mình truyền vào array nhưng không hoạt động(do eval(); ):
+Bài này chúng ta có rất nhiều cách khai thác:  
+Cách 1: Byspass Preg_match() bằng array nhưng không hoạt động do không kích hoạt eval() để chạy.  
 ![Imgur](https://i.imgur.com/WjQBl7e.png)
 
-Nhưng do không hoạt động nên mình đã nghĩ đến sử dụng PHPFuck:
+Cách 2: Sử dụng PHPFuc*: nhưng do độ dài chuỗi nhập nhỏ hơn 100 nên không hoạt động.
 ![Imgur](https://i.imgur.com/LD5Kz1O.png)
 
-Đề bài chỉ cho độ dài đầu vào 100 nên mình đã thất bại.
 Rồi mình đã tìm được kĩ thuật bypass qua preg_match và có đầu vào truyền vào eval();
 Mình sẽ giải thích qua kĩ thuật này:
     Trong PHP, lời gọi hàm có thể thực thi:
