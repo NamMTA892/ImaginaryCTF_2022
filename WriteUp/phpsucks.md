@@ -2,6 +2,7 @@
 ![Imgur](https://i.imgur.com/5JUcvfJ.png)
 ![Imgur](https://i.imgur.com/ToEwB3h.png)
 
+Link:http://puzzler7.imaginaryctf.org:4011/  
 Để bypass qua Preg_match() mình truyền vào array nhưng không hoạt động(do eval(); ):
 ![Imgur](https://i.imgur.com/WjQBl7e.png)
 
