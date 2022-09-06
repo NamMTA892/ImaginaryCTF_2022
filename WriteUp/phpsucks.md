@@ -10,12 +10,12 @@ Cách 1: Byspass Preg_match() bằng array nhưng không hoạt động do khôn
 Cách 2: Sử dụng PHPFuc*: nhưng do độ dài chuỗi nhập nhỏ hơn 100 nên không hoạt động.
 ![Imgur](https://i.imgur.com/LD5Kz1O.png)
 
-Rồi mình đã tìm được kĩ thuật bypass qua preg_match và có đầu vào truyền vào eval();
-Mình sẽ giải thích qua kĩ thuật này:
-    Trong PHP, lời gọi hàm có thể thực thi:
+Rồi mình đã tìm được kĩ thuật bypass qua preg_match và có đầu vào truyền vào eval();  
+Mình sẽ giải thích qua kĩ thuật này:  
++Trong PHP, lời gọi hàm có thể thực thi bằng cách đặt tên biến là tên hàm và thêm () để gọi hàm:  
 ![Imgur](https://i.imgur.com/wkVvxTM.png)
 
-    Kỹ thuật sử dụng lệnh XOR:
++Áp dụng kỹ thuật trên, ta có kỹ thuật sử dụng lệnh XOR:
 ![Imgur](https://i.imgur.com/TlG9Ifw.png)
 
 "?" sẽ được đổi ra mã ASCII là 63 và quy đổi ra nhị phân 00111111.
